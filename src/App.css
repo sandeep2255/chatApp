@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
 .App {
   text-align: center;
 }
@@ -44,4 +46,11 @@
 
 .secondary-color{
   background-color: #1A2C54;
+}
+
+.main-font{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

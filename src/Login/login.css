@@ -20,8 +20,9 @@
 }
 
 .logo-main{
-    margin-left: 350px;
-    margin-top: 200px;
+    position: absolute;
+    left: 410px;
+    top: 200px;
 }
 
 .brannd-name{
@@ -33,6 +34,62 @@
 .login-heading{
     color: white;
     position: absolute;
-    left: 70%;
+    left: 60%;
     top: 20%;
+}
+
+.login-dets{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+
+.input{
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.label{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+.input::placeholder{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.button-div{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 190px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-div:hover {
+    background-color: white;
+    color: #1A2C54;
+}
+
+.button-div:active {
+    transform: translateY(2px);
 }
