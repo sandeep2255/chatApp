@@ -49,7 +49,7 @@ const PeopleView = ({ chats, setChatName }) => {
 const ChatView=({chatName})=>{
     return(
         <div className="chat-window">
-            <div className="chat-header">
+            <div className="chat-header" style={{ display: chatName !== '' ? 'block' : 'none' }}>
                 <span className="main-font display-name">{chatName}</span>
                 <div className="online-indicator">
                     <div className="online-logo"></div>
